@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.list{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.list-item {
+	display: flex;
+    padding: 20rpx 40rpx;
+    border-bottom: 1rpx solid #eee;
+    cursor: pointer;
+    margin-top: 20rpx;
+}
+.list-item info titel{
+	display: block;
+    margin-bottom: 15rpx;
+    font-size: 32rpx;
+
+}
+.list-item a1{
+	width: 200rpx;
+	height:250rpx;
+
+}
+.list-item image{
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+ 	    display: block;
+        margin-bottom: 15rpx;
+        font-size: 32rpx;
+      }
+
+.rating text {
+      display: inline-block;
+      width: 40rpx;
+      font-size: 28rpx;
+      font-weight: bold;
+      text-align: center;
+      background-color: rgba(247, 76, 49, .8);
+      color: #fff;
+      padding: 10rpx;
+      border-radius: 20rpx;
+}
+

@@ -1,0 +1,43 @@
+<view class="container">
+	<view class="slide">
+		<swiper indicator-dots="true" autoplay="true" interval="8000" duration="1000">
+		  <block wx:for="{{imgUrls}}">
+		    <swiper-item>
+		      <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFill"/>
+		    </swiper-item>
+		  </block>
+		</swiper>
+	</view>
+
+
+<!--input.wxml-->
+
+
+<view class="section__title txt-blue">你输入的是：{{inputValue}}</view>
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+  
+<view wx:for="{{ bm_data }}" class="WViewRow1" style="">
+    <view class="WViewRow2" style="">
+      <view class="WViewRow3" style="">
+        <text class="WText17PT1" style="">{{ item.name }}</text>
+      </view>
+      <view class="WViewRow4" style="">
+        <input class="WInput17PT1" name="{{ item.id }}" bindinput="bindKeyInput_{{ item.id }}" placeholder="{{ item.placeholder }}"/>
+      </view>
+    </view>
+</view>
+
+
+  <view class="WViewRow12" style="">
+    <button type="primary" formType="submit" class="WButtonPrimary1" style="">提交</button>
+  </view>
+
+
+
+
+	</form>
+
+
+</view>

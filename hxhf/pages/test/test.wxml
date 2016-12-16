@@ -1,0 +1,81 @@
+<view class="page">
+ <!--页头-->
+ <view class="page__hd">
+ 	<view class="page__title">烟马报名</view>
+    <view class="page__desc">-------</view>
+ </view>
+ <!--主体-->
+ <view class="page__bd">
+ 	<view class="weui-toptips weui-toptips_warn" wx:if="{{showTopTips}}">{{topTips}}</view>
+
+ 	<view class="weui-cells__title">请认真填写以下信息</view>
+
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+	<block wx:for="{{ bm_data }}" wx:key>
+
+		<view wx:if="{{ item.type == 'select' }}" class="weui-cell weui-cell_select">
+                <view class="weui-cell__hd weui-cell__hd_in-select-after">
+                    <view class="weui-label">{{ item.name }}</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <picker bindchange="bind{{ item.id }}Change" name="{{ item.id }}" value="{{ item.data[item.indexx] }}" range="{{ item.data }}">
+                        <view class="weui-select weui-select_in-select-after">{{ item.data[item.indexx] }}</view>
+                    </picker>
+                </view>
+        </view>
+        <view wx:elif="{{ item.type == 'radio' }}" class="weui-cells weui-cells_after-title" >
+			<view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">{{ item.name }}</view>
+                </view>
+                <view class="weui-cell__bd">
+                   <radio-group class="weui-cell__bd" name="{{ item.id }}">
+
+				  <block wx:for="{{ item.data }}" wx:key>
+				      <label><radio class="radio" value="{{ item }}"/>{{ item }}</label>
+				  </block>
+
+				   </radio-group>
+                </view>
+            </view>
+		</view>
+
+        <view wx:else class="weui-cells weui-cells_after-title" >
+			<view class="weui-cell weui-cell_input">
+                <view class="weui-cell__hd">
+                    <view class="weui-label">{{ item.name }}</view>
+                </view>
+                <view class="weui-cell__bd">
+                    <input name="{{ item.id }}" class="weui-input" placeholder="{{ item.placeholder }}" value="{{ item.value }}"/>
+                </view>
+            </view>
+		</view>
+	</block>
+
+	 <checkbox-group bindchange="bindAgreeChange">
+            <label class="weui-agree" for="weuiAgree">
+                <view class="weui-agree__text">
+                    <checkbox class="weui-agree__checkbox" id="weuiAgree" value="agree" checked="{{isAgree}}" />
+                    <view class="weui-agree__checkbox-icon">
+                        <icon class="weui-agree__checkbox-icon-check" type="success_no_circle" size="9" wx:if="{{isAgree}}"></icon>
+                    </view>
+                    阅读并同意<navigator url="" class="weui-agree__link">《相关条款》</navigator>
+                </view>
+            </label>
+        </checkbox-group>
+
+        <view class="weui-btn-area">
+            <button class="weui-btn" type="primary" formType="submit" disabled="{{ !isAgree }}">提交</button>
+        </view>
+
+</form>
+
+
+ </view>
+ <!--没有页脚-->
+</view>
+
+        <view class="weui-footer">
+            <view class="weui-footer__text">Copyright © 2008-2016 weui.io</view>
+        </view>

@@ -1,0 +1,33 @@
+.slide swiper{
+	height: 400rpx;
+}
+
+.slide-image{
+	width: 100%;
+	height: 100%;
+}
+.test_box {
+    display: -moz-box; 
+    display: -webkit-box;
+    display: -o-box;
+    display: box;
+    -moz-box-lines:multiple;
+    -webkit-box-lines:multiple;
+    -o-box-lines:multiple;
+    box-lines:multiple;
+    width: 750rpx;
+    margin: 40rpx auto;
+ }
+.list {
+	display: inline-block;
+    background: #f0f3f9;
+    text-align: center;
+    padding:80rpx;
+	margin:7rpx;
+	border-bottom: 1rpx solid #eee;
+    cursor: pointer;
+}
+.section{
+	display: inline;
+	background-color: pink;
+}

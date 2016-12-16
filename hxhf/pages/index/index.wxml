@@ -1,0 +1,80 @@
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000" class="WSwiper1" style="">
+   <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <view class="WViewRow1" style="">
+        <image class="WImage1" style="" src="{{item}}">
+        </image>
+      </view>
+    </swiper-item>
+
+ </block>
+
+  </swiper>
+
+
+
+  <view class="WViewRow3" style="">
+    <view class="WViewColumn1" style="">
+      <image class="WImage3" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon7.png">
+      </image>
+      <view class="WViewRow4" style="">
+        <text class="WText16PT1" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn2" style="">
+      <image class="WImage4" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon8.png">
+      </image>
+      <view class="WViewRow5" style="">
+        <text class="WText16PT2" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn3" style="">
+      <image class="WImage5" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon9.png">
+      </image>
+      <view class="WViewRow6" style="">
+        <text class="WText16PT3" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn4" style="">
+      <image class="WImage6" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon7.png">
+      </image>
+      <view class="WViewRow7" style="">
+        <text class="WText16PT4" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn5" style="">
+      <image class="WImage7" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon8.png">
+      </image>
+      <view class="WViewRow8" style="">
+        <text class="WText16PT5" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn6" style="">
+      <image class="WImage8" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon9.png">
+      </image>
+      <view class="WViewRow9" style="">
+        <text class="WText16PT6" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn7" style="">
+      <image class="WImage9" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon7.png">
+      </image>
+      <view class="WViewRow10" style="">
+        <text class="WText16PT7" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn8" style="">
+      <image class="WImage10" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon8.png">
+      </image>
+      <view class="WViewRow11" style="">
+        <text class="WText16PT8" style="">描述-16PX</text>
+      </view>
+    </view>
+    <view class="WViewColumn9" style="">
+      <image class="WImage11" style="" src="http://layout.qdzhixinda.com/Public/images/demoicon9.png">
+      </image>
+      <view class="WViewRow12" style="">
+        <text class="WText16PT9" style="">描述-16PX</text>
+      </view>
+    </view>
+  </view>

@@ -1,0 +1,22 @@
+<view class="container">
+	<view class="slide">
+		<swiper indicator-dots="true" autoplay="true" interval="8000" duration="1000">
+		  <block wx:for="{{imgUrls}}">
+		    <swiper-item>
+		      <image src="{{item}}" class="slide-image" width="355" height="150" mode="aspectFill"/>
+		    </swiper-item>
+		  </block>
+		</swiper>
+	</view>
+
+
+<view class="test_box">
+	<navigator url="../bm/bm" hover-class="none">
+		<text class="list">烟马报名</text>
+	</navigator>
+	<navigator url="../bm/bm" hover-class="none">
+		<text class="list">烟马报名</text>
+	</navigator>
+	
+</view>
+</view>

@@ -1,0 +1,471 @@
+.WSwiper1{
+box-sizing:border-box;
+ margin: 8PX  0PX  0PX  0PX ; 
+ width: 375PX; 
+ height: 190PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height: 170PX ; 
+
+}
+.WViewRow1{
+box-sizing:border-box;
+ display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width:375px;
+ height: 190PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage1{
+ width:340px;
+ height:170px; 
+}
+.WViewRow2{
+box-sizing:border-box;
+ display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width:375px;
+ height: 190PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage2{
+ width:339px;
+ height:166px; 
+}
+.WViewRow3{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:flex-start;
+margin: 8PX  0PX  0PX  0PX ; 
+ width:375px;
+ height: 375PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WViewColumn1{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage3{
+ width:30px;
+ height:30px; 
+}
+.WViewRow4{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT1{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn2{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-left:1PX solid #b2b2b2;
+border-right:1PX solid #b2b2b2;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage4{
+ width:30px;
+ height:30px; 
+}
+.WViewRow5{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT2{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn3{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage5{
+ width:30px;
+ height:30px; 
+}
+.WViewRow6{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT3{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn4{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-bottom:1PX solid #b2b2b2;
+padding: 15PX ; 
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage6{
+ width:30px;
+ height:30px; 
+}
+.WViewRow7{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT4{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn5{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-left:1PX solid #b2b2b2;
+border-right:1PX solid #b2b2b2;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage7{
+ width:30px;
+ height:30px; 
+}
+.WViewRow8{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT5{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn6{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage8{
+ width:30px;
+ height:30px; 
+}
+.WViewRow9{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT6{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn7{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage9{
+ width:30px;
+ height:30px; 
+}
+.WViewRow10{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT7{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn8{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-left:1PX solid #b2b2b2;
+border-right:1PX solid #b2b2b2;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage10{
+ width:30px;
+ height:30px; 
+}
+.WViewRow11{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT8{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}
+.WViewColumn9{
+box-sizing:border-box;
+ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:column;
+ flex-wrap:nowrap;
+ align-content:stretch;
+border-bottom:1PX solid #b2b2b2;
+ width: 125PX; 
+ height: 125PX; 
+ background-color: #FFFFFF; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WImage11{
+ width:30px;
+ height:30px; 
+}
+.WViewRow12{
+box-sizing:border-box;
+ display:flex;
+justify-content:flex-start;
+align-items:flex-start;
+flex-direction:row;
+ flex-wrap:wrap;
+ align-content:stretch;
+ width: 78PX; 
+ height: 16PX; 
+ background-color: transparent; 
+ color: #FFFFFF; 
+ font-size: 20PX; 
+ line-height:20PX; 
+
+}
+.WText16PT9{
+ background-color: transparent; 
+ color: #000000; 
+ font-size: 16PX; 
+ line-height: 16PX ; 
+
+}

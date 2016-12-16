@@ -1,0 +1,37 @@
+{
+  "pages":[
+   "pages/test3/test3",
+   "pages/test2/test2",
+    "pages/bm/bm",
+    "pages/test2List/test2List",
+    "pages/test2Item/test2Item",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/board/board"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页-华夏厚方",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+"selectedColor": "#000000",
+"borderStyle": "lightgray",
+
+"list": [
+{
+"pagePath": "pages/test2/test2",
+"iconPath": "images/home.png",
+"selectedIconPath": "images/home-actived.png",
+"text": "首页"
+},
+{
+"pagePath": "pages/test3/test3",
+"iconPath": "images/profile.png",
+"selectedIconPath": "images/profile-actived.png",
+"text": "主页"
+}]
+}
+}

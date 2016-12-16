@@ -1,0 +1,9 @@
+Page({
+	data:{
+		imgUrls:[
+		'http://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2397337958.jpg',
+		'http://img7.doubanio.com/view/movie_poster_cover/lpst/public/p2402824160.jpg',
+		'http://img7.doubanio.com/view/movie_poster_cover/lpst/public/p2403319543.jpg'
+		]
+	}
+})

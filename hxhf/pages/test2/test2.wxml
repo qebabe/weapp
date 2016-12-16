@@ -1,0 +1,53 @@
+<!--pages/test2/test2.wxml-->
+<view class="page">
+ <!--页头-->
+ 	<view wx:if="{{load}}" class="weui-panel weui-panel_access">
+        	<view class="weui-loadmore">
+            <view class="weui-loading"></view>
+            <view class="weui-loadmore__tips">正在更新</view>
+        	</view>
+        </view>
+  	<view class="slide">
+		<swiper indicator-dots="true" autoplay="true" interval="8000" duration="1000">
+		  <block wx:for="{{imgUrls}}" wx:key>
+		  	 <navigator url="../test2Item/test2Item?id={{item.id}}">
+		    <swiper-item>
+		     	 <image src="{{item.images.large}}" class="slide-image" width="355" height="150" mode="aspectFill"/>
+
+		    </swiper-item>
+		    </navigator>
+		  </block>
+		</swiper>
+</view>
+<view class="page__hd">
+        <text class="page__title">
+           啦啦啦
+        </text>
+        <!--<text class="page__desc">WeUI 是一套同微信原生视觉体验一致的基础样式库，由微信官方设计团队为微信内网页和微信小程序量身设计，令用户的使用感知更加统一。</text>-->
+</view>
+ <view class="page__bd">
+
+        <view class="weui-cells__title">带图标、说明、跳转的列表项</view>
+        <view class="weui-cells weui-cells_after-title">
+
+		<block wx:for="{{ listData }}" wx:key>
+
+			            <navigator url="../test2List/test2List?type={{ item.type }}&name={{ item.name }}" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+			                <view class="weui-cell__hd">
+			                    <image src="{{item.icon}}" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+			                </view>
+			                <view class="weui-cell__bd">{{ item.name }}</view>
+			                <view class="weui-cell__ft weui-cell__ft_in-access">{{ item.shuoMing }}</view>
+			            </navigator>
+		</block>
+
+
+        </view>
+
+ </view>
+
+        <view class="weui-footer">
+            <view class="weui-footer__text">Copyright © 2008-2016 weui.io</view>
+        </view>
+
+ </view>

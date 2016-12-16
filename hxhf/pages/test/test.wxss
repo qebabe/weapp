@@ -1,0 +1,4 @@
+.radio{
+text-align: left;
+padding-left:80rpx;
+}
