@@ -1,0 +1,21 @@
+/* pages/dxxw/index.wxss */
+.slide-image{
+	width:100%;
+}
+swiper {
+display:block;
+height:295px;
+
+}
+.slide-title-bg {
+	margin-top:0em;
+
+	background-color: #000000;
+	opacity: 0.5;
+}
+.slide-title {
+
+color:#FFFFFF;
+font-size:14px;
+
+}

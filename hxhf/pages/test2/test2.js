@@ -27,6 +27,7 @@ Page({
       "shuoMing":"排行榜前二十."
     }
     ],
+    textList:[],
     load:false
   },
   onLoad:function(options){

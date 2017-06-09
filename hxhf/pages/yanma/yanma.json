@@ -1,0 +1,9 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ab1719",
+    "navigationBarTitleText": "华夏厚方+",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  }
+}

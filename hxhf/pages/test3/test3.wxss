@@ -7,3 +7,10 @@ map {
     height: 600rpx;
     margin: 30rpx auto;
 }
+html {
+    
+}
+
+page{
+    background: linear-gradient(to left, #BE93C5 , #7BC6CC);
+}

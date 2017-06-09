@@ -24,7 +24,7 @@
                     </picker>
                 </view>
         </view>
-        <view wx:elif="{{ item.type == 'radio' }}" class="weui-cells weui-cells_after-title" >
+        <view wx:elif="{{ item.type == 'radio' }}" class="weui-cells weui-cell_select" >
 			<view class="weui-cell weui-cell_input">
                 <view class="weui-cell__hd">
                     <view class="weui-label">{{ item.name }}</view>
@@ -41,7 +41,7 @@
             </view>
 		</view>
 
-        <view wx:else class="weui-cells weui-cells_after-title" >
+        <view wx:else class="weui-cells weui-cell_select" >
 			<view class="weui-cell weui-cell_input">
                 <view class="weui-cell__hd">
                     <view class="weui-label">{{ item.name }}</view>

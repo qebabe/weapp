@@ -1,20 +1,25 @@
 {
   "pages":[
+    "pages/yanma_cjcx/yanma_cjcx",
+    "pages/yanma/yanma",
+    "pages/index/index",
+    "pages/test/test",
+    "pages/bm/bm",
+    "pages/yanma_item/yanma_item",
    "pages/test3/test3",
    "pages/test2/test2",
-    "pages/bm/bm",
     "pages/test2List/test2List",
     "pages/test2Item/test2Item",
-    "pages/test/test",
-    "pages/index/index",
     "pages/board/board"
 
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "首页-华夏厚方",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#ab1719",
+    "navigationBarTitleText": "华夏厚方+",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true
+    
   },
   "tabBar":{
 "selectedColor": "#000000",
@@ -22,16 +27,23 @@
 
 "list": [
 {
-"pagePath": "pages/test2/test2",
-"iconPath": "images/home.png",
-"selectedIconPath": "images/home-actived.png",
+"pagePath": "pages/index/index",
+"iconPath": "images/hxhf.png",
+"selectedIconPath": "images/hxhf-actived.png",
 "text": "首页"
 },
 {
-"pagePath": "pages/test3/test3",
-"iconPath": "images/profile.png",
-"selectedIconPath": "images/profile-actived.png",
-"text": "主页"
-}]
+"pagePath": "pages/yanma/yanma",
+"iconPath": "images/yanma.png",
+"selectedIconPath": "images/yanma-actived.png",
+"text": "烟马"
+},
+{
+"pagePath": "pages/bm/bm",
+"iconPath": "images/longma.png",
+"selectedIconPath": "images/longma-actived.png",
+"text": "龙马"
+}
+]
 }
 }

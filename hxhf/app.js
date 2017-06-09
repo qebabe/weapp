@@ -20,8 +20,10 @@ App({
   },
   getUserInfo:function(cb){
     var that = this
-    if(this.globalData.userInfo){
+    if (this.globalData.userInfo && this.globalData.code){
       typeof cb == "function" && cb(this.globalData.userInfo)
+      console.log(">>>>>>>>>>>")
+      console.log(this.globalData.userInfo)
     }else{
       //调用登录接口
       wx.login({
@@ -29,6 +31,7 @@ App({
           wx.getUserInfo({
             success: function (res) {
               that.globalData.userInfo = res.userInfo
+              that.globalData.code = res.code
               typeof cb == "function" && cb(that.globalData.userInfo)
             }
           })

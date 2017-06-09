@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <view   class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto" bindtap="getWeRunData">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+
+
+<view class="weui-cells">
+            <view wx:for="{{ stepInfoList }}" class="weui-cell">
+                <view class="weui-cell__bd">
+                    <text>{{ item.timestamp }}</text>
+                </view>
+                <view class="weui-cell__ft">{{ item.step }}</view>
+            </view>
+           
+</view>
+
+
+
+
+
+
+
+
+
+</view>
